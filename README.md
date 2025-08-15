@@ -4,18 +4,18 @@
 ## Overview
 This project documents the results of a comprehensive vulnerability scan performed on my local machine using **Tenable Nessus Essentials**, as part of Task 3 of my cybersecurity internship with Elevate Labs
 
-## 📋 Objective
+## Objective
 - Use free vulnerability scanning tools to identify common security vulnerabilities on a personal computer
 - Gain hands-on experience with professional cybersecurity assessment tools
 - Document findings and develop remediation strategies
 
-## 🛠️ Tools Used
+## Tools Used
 - **Tenable Nessus Essentials** (Version 10.9.2)
 - **Target System:** Windows x86_64 localhost (127.0.0.1)
 - **Scan Policy:** Basic Network Scan
 - **CVSS Version:** 3.0
 
-## 🔍 Methodology
+## Methodology
 
 ### 1. Tool Installation & Setup
 - Downloaded and installed Nessus Essentials from Tenable
@@ -35,7 +35,7 @@ This project documents the results of a comprehensive vulnerability scan perform
 - Monitored scan progress through Nessus web interface
 - Documented scan completion and results export
 
-## 📊 Results Summary
+## Results Summary
 
 Based on the completed vulnerability scan, the following security issues were identified:
 
@@ -51,13 +51,13 @@ Based on the completed vulnerability scan, the following security issues were id
 
 ### Key Findings
 
-#### 🔴 Medium Severity (CVSS 5.3)
+#### Medium Severity (CVSS 5.3)
 **SMB Signing Not Required**
 - **Impact:** Man-in-the-middle attacks possible on SMB traffic
 - **Affected Service:** NetBIOS/SMB (Port 139, 445)
 - **Recommendation:** Enable SMB signing in Windows security policy
 
-#### 🔵 Informational Findings
+#### Informational Findings
 - **Open Ports Detected:** 29 ports identified via Netstat scanner
   - Port 135 (RPC Endpoint Mapper)
   - Port 139 (NetBIOS Session Service)
@@ -68,7 +68,7 @@ Based on the completed vulnerability scan, the following security issues were id
 - **Service Detection:** Windows services and web servers identified
 - **Platform Recognition:** Microsoft Windows system detected
 
-## 🛡️ Security Recommendations
+## Security Recommendations
 
 ### Immediate Actions
 1. **Enable SMB Signing**
@@ -96,7 +96,7 @@ Based on the completed vulnerability scan, the following security issues were id
 - **Screenshot 3:** Detailed vulnerability listings and CVSS scores
 - **Screenshot 4:** Scan configuration and target settings
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 ### Technical Skills Gained
 - **Vulnerability Assessment:** Hands-on experience with enterprise security scanning
@@ -116,7 +116,7 @@ Based on the completed vulnerability scan, the following security issues were id
 **Medium Risk Issues:** 1  
 ***
 
-## 💡 Interview Preparation Answers
+## Interview Preparation Answers
 
 ### 1. What is vulnerability scanning?
 Vulnerability scanning is an automated security assessment process that systematically examines systems, networks, and applications to identify potential security weaknesses before they can be exploited by attackers.
@@ -158,7 +158,7 @@ Prioritization should consider:
 - **Business impact** (potential consequences)
 - **Available patches** (remediation feasibility)
 
-## 🔗 Additional Resources
+## Additional Resources
 - [Tenable Nessus Documentation](https://docs.tenable.com/nessus/)
 - [NIST Vulnerability Management Guide](https://nvd.nist.gov/)
 - [CVSS Calculator](https://www.first.org/cvss/calculator/)
