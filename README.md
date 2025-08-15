@@ -110,11 +110,11 @@ Based on the completed vulnerability scan, the following security issues were id
 - **False Positive Management:** Distinguishing real threats from scanning artifacts
 - **Risk Prioritization:** Severity-based remediation planning
 
-***
 **Scan Duration:** 12 minutes  
 **Total Vulnerabilities Found:** 23  
 **Critical/High Risk Issues:** 0  
 **Medium Risk Issues:** 1  
+***
 
 ## 💡 Interview Preparation Answers
 
